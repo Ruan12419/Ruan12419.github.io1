@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             favoritosBadge.textContent = favoritosCount;
             sessionStorage.setItem('favoritosCount', favoritosCount.toString());
 
-            alert('Obrigado por adotar um pet! Seu total de favoritos agora é ' + favoritosCount);
+            // alert('Obrigado por adotar um pet! Seu total de favoritos agora é ' + favoritosCount);
         });
     });
 
