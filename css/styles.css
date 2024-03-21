@@ -7782,8 +7782,8 @@ textarea.form-control-lg {
 }
 
 .py-5 {
-  padding-top: 3rem !important;
-  padding-bottom: 3rem !important;
+  padding-top: 0rem !important;
+  padding-bottom: 1rem !important;
 }
 
 .pt-0 {
@@ -10828,4 +10828,40 @@ textarea.form-control-lg {
 
 #boo-img {
   height: 30em;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-item{
+  margin-right: 1em;
+}
+
+.row {
+  display: row;
+  flex-wrap: nowrap;
+}
+
+nav, header, footer {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+nav {
+  top: 0;
+}
+
+header {
+  top: 1;
+}
+
+footer {
+  bottom: 0;
+}
+
+section {
+  overflow-x: auto;
 }
