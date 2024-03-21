@@ -7611,7 +7611,7 @@ textarea.form-control-lg {
 }
 
 .mt-5 {
-  margin-top: 3rem !important;
+  margin-top: 10rem !important;
 }
 
 .mt-auto {
@@ -10847,7 +10847,7 @@ textarea.form-control-lg {
 nav, header, footer {
   position: fixed;
   width: 100%;
-  z-index: 1;
+  z-index: 0;
 }
 
 nav {
