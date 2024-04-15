@@ -1,0 +1,30 @@
+ icons [
+    {
+      src assetsicons144.png,
+      sizes 144x144,
+      type imagepng,
+      purpose any
+    },
+    {
+      src assetsicons196.png,
+      sizes 196x196,
+      type imagepng
+    },
+    {
+      src assetsicons144.svg,
+      sizes 144x144,
+      type imagesvg,
+      purpose any
+    },
+    {
+      src assetsicons256.png,
+      sizes 256x256,
+      type imagepng
+    },
+    {
+      src assetsicons512.png,
+      sizes 512x512,
+      type imagepng,
+      purpose maskable
+    }
+  ],
